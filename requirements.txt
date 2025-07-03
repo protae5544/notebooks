@@ -1,0 +1,24 @@
+torch>=1.11.0
+transformers>=4.26.0
+opencv-python>=4.7.0
+numpy>=1.21.0
+pandas>=1.3.0
+Pillow>=8.3.0
+pytesseract>=0.3.8
+pdfplumber>=0.7.0
+PyMuPDF>=1.20.0
+scikit-learn>=1.0.0
+datasets>=2.9.0
+accelerate>=0.16.0
+
+# Optional dependencies for enhanced functionality
+torch-audio>=0.11.0  # For audio form processing
+matplotlib>=3.5.0    # For visualization
+seaborn>=0.11.0     # For advanced visualization
+plotly>=5.0.0       # For interactive plots
+
+# Development dependencies
+pytest>=6.0.0
+black>=22.0.0
+flake8>=4.0.0
+mypy>=0.950

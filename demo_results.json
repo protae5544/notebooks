@@ -1,0 +1,130 @@
+{
+  "document_type": "application_form",
+  "confidence": 0.875,
+  "fields": [
+    {
+      "name": "email_0",
+      "type": "email",
+      "coordinates": [
+        170,
+        150,
+        330,
+        170
+      ],
+      "value": "john.doe@example.com",
+      "confidence": 0.85,
+      "metadata": {
+        "detection_method": "pattern_matching_demo"
+      }
+    },
+    {
+      "name": "phone_0",
+      "type": "phone",
+      "coordinates": [
+        170,
+        150,
+        282,
+        170
+      ],
+      "value": "(555) 123-4567",
+      "confidence": 0.85,
+      "metadata": {
+        "detection_method": "pattern_matching_demo"
+      }
+    },
+    {
+      "name": "date_0",
+      "type": "date",
+      "coordinates": [
+        170,
+        150,
+        250,
+        170
+      ],
+      "value": "01/15/1990",
+      "confidence": 0.85,
+      "metadata": {
+        "detection_method": "pattern_matching_demo"
+      }
+    },
+    {
+      "name": "currency_0",
+      "type": "currency",
+      "coordinates": [
+        170,
+        150,
+        226,
+        170
+      ],
+      "value": "$75,000",
+      "confidence": 0.85,
+      "metadata": {
+        "detection_method": "pattern_matching_demo"
+      }
+    },
+    {
+      "name": "name_field",
+      "type": "text",
+      "coordinates": [
+        170,
+        100,
+        350,
+        120
+      ],
+      "value": "John Doe",
+      "confidence": 0.9,
+      "metadata": {
+        "detection_method": "structural_analysis"
+      }
+    },
+    {
+      "name": "address_field",
+      "type": "text",
+      "coordinates": [
+        170,
+        250,
+        350,
+        270
+      ],
+      "value": "123 Main St, City, State",
+      "confidence": 0.8,
+      "metadata": {
+        "detection_method": "structural_analysis"
+      }
+    },
+    {
+      "name": "checkbox_1",
+      "type": "checkbox",
+      "coordinates": [
+        50,
+        320,
+        70,
+        340
+      ],
+      "value": "unchecked",
+      "confidence": 0.95,
+      "metadata": {
+        "detection_method": "template_matching"
+      }
+    },
+    {
+      "name": "checkbox_2",
+      "type": "checkbox",
+      "coordinates": [
+        50,
+        350,
+        70,
+        370
+      ],
+      "value": "checked",
+      "confidence": 0.95,
+      "metadata": {
+        "detection_method": "template_matching"
+      }
+    }
+  ],
+  "metadata": {
+    "processing_method": "demo_simulation",
+    "total_fields": 8
+  }
+}
